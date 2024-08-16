@@ -38,11 +38,10 @@ namespace EjercicioRetroalimentacion
 
 
 
-
-
-                using (var command = SqlCommand(Otodos, conexion))
+                using (var command = new SqlCommand(Otodos, conexion))
                 {
-
+                    //lisas customer <Customers = new list
+                    //> 
                 }
             }
         }
